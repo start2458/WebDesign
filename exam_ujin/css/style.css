@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.cf::before .cf::after{
+    clear: both;
+    content: '';
+    display: block;
+}
+.wrap{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+.header .hlogo{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background: #111;
+}
+.header .hlist{
+    float: left;
+    width: 1000px;
+    height: 100px;
+    background: #222;
+}
+.slide{
+    float: left;
+    width: 1200px;
+    height: 300px;
+    background: #333;
+}
+.slideList{
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+}
+.slideImg img{
+    width: 1200px;
+    height: 300px;
+    display: block;
+}
+.section .notice{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background: #444;
+}
+.section .gallery{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background: #555;
+}
+.section .shortcut{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background: #666;
+}
+.footer{
+    float: left;
+}
+.footer .fmenu{
+    float: left;
+    width: 1000px;
+    height: 50px;
+    background: #777;
+}
+.footer .copy{
+    float: left;
+    width: 1000px;
+    height: 50px;
+    background: #888;
+}
+.footer .fa{
+    width: 200px;
+    height: 100px;
+    margin-left: 1000px;
+    background: #999;
+}
