@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
 }
 ul li{
     list-style: none;
@@ -47,22 +49,95 @@ a{
     display: block;
 }
 .section .notice{
+    position: relative;
     float: left;
     width: 400px;
     height: 200px;
-    background: #444;
+}
+.n_title{
+    position: absolute;
+    width: 80px;
+    padding: 3px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-bottom: none;
+    text-align: center;
+}
+.n_title a{
+    color: salmon;
+    font-weight: bold;
+}
+.n_content{
+    width: 95%;
+    margin-top: 42px;
+    border-top: 1px solid black;
+    box-sizing: border-box;
+}
+.n_content li{
+    line-height: 30px;
+    font-size: 14px;
+    border-bottom: 1px solid gray;
+}
+.n_content li:first-child{
+    margin-top: 10px;
+}
+.n_content li:hover{
+    text-decoration: underline;
+}
+.n_content span{
+    float: right;
 }
 .section .gallery{
     float: left;
-    width: 400px;
+    width: 500px;
     height: 200px;
-    background: #555;
+}
+.gallery .g_img{
+    position: relative;
+    display: flex;
+    float: left;
+}
+.g_img p{
+    position: absolute;
+    width: 100%;
+    margin-top: 135px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+.g_img img{
+    float: left;
+    width: 135px;
+    height: 110px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .section .shortcut{
     float: left;
-    width: 400px;
+    width: 300px;
     height: 200px;
-    background: #666;
+}
+.s_img p{
+    position: absolute;
+    width: 14%;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+.s_img img{
+    width: 85%;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border: 2px solid blue;
+}
+.s_content{
+    width: 100%;
+    margin-top: 42px;
+    border-top: 1px solid black;
+    box-sizing: border-box;
 }
 .footer{
     float: left;
@@ -71,17 +146,27 @@ a{
     float: left;
     width: 1000px;
     height: 50px;
-    background: #777;
+}
+.fmenu p{
+    margin-top: 25px;
+    font-size: 14px;
 }
 .footer .copy{
     float: left;
     width: 1000px;
     height: 50px;
-    background: #888;
+}
+.copy p{
+    font-size: 14px;
 }
 .footer .fa{
     width: 200px;
     height: 100px;
     margin-left: 1000px;
-    background: #999;
+}
+.fasite{
+    margin-top: 40px;
+    margin-left: 50px;
+    padding: 5px;
+    background-color: #fff;
 }
